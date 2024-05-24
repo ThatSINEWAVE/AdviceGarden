@@ -4,6 +4,8 @@
 
 Welcome to **AdviceGarden**, a web application designed to bring a little more positivity to your day with inspirational advice. Whether you need a quick boost or are searching for specific advice, AdviceGarden is here to help.
 
+![AdviceGarden](https://github.com/ThatSINEWAVE/AdviceGarden/assets/133239148/32c1d6ac-7e9f-44b3-9c07-c696bf4e96e5)
+
 </div>
 
 ## Features
