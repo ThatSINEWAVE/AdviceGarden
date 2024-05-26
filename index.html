@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdviceGarden</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
+    <link rel="manifest" href="site-data/site.webmanifest">
+  </head>
+  <body>
+    <div class="container">
+      <div id="start-menu" class="fade-in">
+        <h1>Need a dose of positivity?</h1>
+        <p>Let us share some uplifting advice to brighten your day</p>
+        <button id="inspire-me-btn" class="btn">Inspire me</button>
+        <button id="search-btn" class="btn">Search</button>
+      </div>
+      <div id="advice-display" class="hidden fade-out">
+        <h2>Your advice is...</h2>
+        <p id="advice-text"></p>
+        <p id="advice-id"></p>
+        <button id="new-advice-btn" class="btn">Give me something else</button>
+        <button id="go-back-btn" class="btn">Go back</button>
+      </div>
+      <div id="search-menu" class="hidden fade-out">
+        <h2>Search for previous advice slips</h2>
+        <input type="number" id="search-input" placeholder="Enter advice ID">
+        <button id="search-inspire-btn" class="btn">Inspire me</button>
+        <p id="error-message" class="hidden">Advice slip not found.</p>
+      </div>
+    </div>
+    <footer>
+      <a href="https://discord.com/invite/2nHHHBWNDw" target="_blank">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="https://ko-fi.com/thatsinewave" target="_blank">
+        <i class="fas fa-heart"></i>
+      </a>
+      <a href="https://github.com/ThatSINEWAVE/Joke4U" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
