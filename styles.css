@@ -1,0 +1,117 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #E0F7FA;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+.container {
+	text-align: center;
+	padding: 50px;
+	max-width: 600px;
+	width: 100%;
+}
+
+h1 {
+	color: #0097A7;
+	margin: 0 0 24px;
+	font-size: 32px;
+}
+
+h2 {
+	color: #0097A7;
+	margin: 0 0 24px;
+	font-size: 28px;
+}
+
+p {
+	color: #333;
+	margin: 0 0 24px;
+	font-size: 18px;
+}
+
+button.btn {
+	background-color: #0097A7;
+	color: #fff;
+	border: none;
+	padding: 14px 28px;
+	margin: 10px;
+	border-radius: 32px;
+	font-size: 18px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.btn:hover {
+	background-color: #00838F;
+	transform: translateY(-2px);
+}
+
+input#search-input {
+	border: 2px solid #0097A7;
+	padding: 12px 24px;
+	border-radius: 32px;
+	font-size: 18px;
+	outline: none;
+	transition: border-color 0.3s ease;
+}
+
+input#search-input:focus {
+	border-color: #00838F;
+}
+
+.hidden {
+	display: none;
+}
+
+.fade-in {
+	animation: fadeIn 0.5s forwards;
+}
+
+.fade-out {
+	animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+#error-message {
+	color: #E53935;
+	font-size: 16px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background: transparent;
+}
+
+footer a {
+	margin: 0 15px;
+	display: inline-block;
+	font-size: 20px;
+	color: #0097A7;
+}
